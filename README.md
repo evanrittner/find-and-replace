@@ -23,21 +23,14 @@ The replacements you make are applied to reddit once you finish each page (not a
 ## Example Execution
 This example showcases the regex and advanced replacement functionality. This converts links of the form "/r/SpaceX/\<id\>/" to "/r/SpaceX/comments/\<id\>/"). Case is ignored, to match both "/r/SpaceX" and "/r/spacex".
 
-`-=-=-=-=-=-=-=-=-=-=-`
-
-`find-and-replace`
-
-`/u/thatnerdguy1`
-
-`-=-=-=-=-=-=-=-=-=-=-`
-
-&nbsp;
-
-`Complete the authorization that opened in your browser.`
-
-`Authorization successful.`
-
-`(you can close the browser tab that opened)`
+	-=-=-=-=-=-=-=-=-=-=-
+	find-and-replace
+	/u/thatnerdguy1
+	-=-=-=-=-=-=-=-=-=-=-
+	
+	Complete the authorization that opened in your browser.
+	Authorization successful.
+	(you can close the browser tab that opened)
 
 &nbsp;
 
