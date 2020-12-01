@@ -79,7 +79,7 @@ if __name__=="__main__":
     if "all" in pages:
         pages = reddit.subreddit(subreddit).wiki
     else:
-        pages = map(lambda x: reddit.subreddit.wiki[x], pages)
+        pages = [reddit.subreddit.wiki[p] for p in pages]
         
     search = input("Enter the string to search (regex syntax is valid!): ")
     
