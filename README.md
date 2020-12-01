@@ -24,8 +24,8 @@ The replacements you make are applied to reddit once you finish each page (not a
 This example showcases the regex and advanced replacement functionality. This converts links of the form "/r/SpaceX/\<id\>/" to "/r/SpaceX/comments/\<id\>/"). Case is ignored, to match both "/r/SpaceX" and "/r/spacex".
 
 	-=-=-=-=-=-=-=-=-=-=-
-	find-and-replace
-	/u/thatnerdguy1
+	  find-and-replace
+	   /u/thatnerdguy1
 	-=-=-=-=-=-=-=-=-=-=-
 	
 	Complete the authorization that opened in your browser.
