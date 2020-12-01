@@ -22,26 +22,27 @@ The replacements you make are applied to reddit once you finish each page (not a
 
 ## Example Execution
 This example showcases the regex and advanced replacement functionality. This converts links of the form "/r/SpaceX/\<id\>/" to "/r/SpaceX/comments/\<id\>/"). Case is ignored, to match both "/r/SpaceX" and "/r/spacex".
-    -=-=-=-=-=-=-=-=-=-=-
-      find-and-replace
-       /u/thatnerdguy1
-    -=-=-=-=-=-=-=-=-=-=-
 
-    Complete the authorization that opened in your browser.
-    Authorization successful.
-(you can close the browser tab that opened)
-
-Enter the name of the subreddit: SpaceX
-Enter the pages to be edited, separated by spaces.
-To list all pages, enter "pages".
-To edit all pages, enter "all".
-all
-Enter the string to search (regex syntax is valid!): (r\/spacex\/)([a-zA-Z0-9]{6}[\/)])
-Ignore case? ("y"/"n"): y
-Enter the string to replace each instance with. For advanced functionality, enter "!ADV!": !ADV!
-Complete the lambda function, which takes a single match object as input, and outputs the replacement string: (or, enter "X" to return to the simple functionality)
-lambda match: match.group(1) + "comments/" + match.group(2)
-The current view margin is 6. Do you want to adjust it? ("y"/"n"): n
-Would you like to skip confirmation of each replacement? This is risky. ("y"/"n"): n
-
-Each match will be shown. Enter "y" to replace, or anything else to skip replacement.
+	-=-=-=-=-=-=-=-=-=-=-
+	find-and-replace
+	/u/thatnerdguy1
+	-=-=-=-=-=-=-=-=-=-=-
+	
+	Complete the authorization that opened in your browser.
+	Authorization successful.
+	(you can close the browser tab that opened)
+	
+	Enter the name of the subreddit: **SpaceX**
+	Enter the pages to be edited, separated by spaces.
+	To list all pages, enter "pages".
+	To edit all pages, enter "all".
+	**all**
+	Enter the string to search (regex syntax is valid!): **(r\/spacex\/)([a-zA-Z0-9]{6}[\/)])**
+	Ignore case? ("y"/"n"): **y**
+	Enter the string to replace each instance with. For advanced functionality, enter "!ADV!": **!ADV!**
+	Complete the lambda function, which takes a single match object as input, and outputs the replacement string: (or, enter "X" to return to the simple functionality)
+	lambda match: **match.group(1) + "comments/" + match.group(2)**
+	The current view margin is 6. Do you want to adjust it? ("y"/"n"): **n**
+	Would you like to skip confirmation of each replacement? This is risky. ("y"/"n"): **n**
+	
+	Each match will be shown. Enter "y" to replace, or anything else to skip replacement.
