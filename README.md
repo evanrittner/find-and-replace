@@ -31,9 +31,7 @@ This example showcases the regex and advanced replacement functionality. This co
 	Complete the authorization that opened in your browser.
 	Authorization successful.
 	(you can close the browser tab that opened)
-
-&nbsp;
-
+	
 `Enter the name of the subreddit: `**`SpaceX`**
 	Enter the pages to be edited, separated by spaces.
 	To list all pages, enter "pages".
