@@ -1,7 +1,7 @@
 # find-and-replace
- Regex-based find and replace tool for editing subreddit wiki pages. Written by @evanrittner.
+ Regex-based find and replace tool for editing subreddit wiki pages.
  
-Python 3. Requires the "praw" module ("pip install praw").
+Python 3; requires the praw module ("pip install praw").
 
 ## Usage:
 
